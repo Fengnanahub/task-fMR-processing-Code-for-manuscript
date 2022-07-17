@@ -23,7 +23,7 @@ Y = Y(nozeroID, :);
 X = zscore(X);
 Y = zscore(Y);
 %% PLS 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% PLS variance picture start
+%%%%%%%%%%%%%%%%% PLS variance picture start
 %perform full PLS and plot variance in Y explained by top 20 components
 %(hopefully!)
 dim=20; % weishu (more larger more better)
@@ -59,7 +59,7 @@ grid on
 l = lsline;
 l.Color = 'k';
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% PLS variance picture end
+%%%%%%%%%%%PLS variance picture end
 %% permutation testing to assess significance of PLS result as a function of
 % the number of components (dim) included:
 rep=5000; 
